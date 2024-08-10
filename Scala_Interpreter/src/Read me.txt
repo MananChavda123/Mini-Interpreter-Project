@@ -1,0 +1,45 @@
+This is the Read Me file on the Mini Interpreter Project.
+
+We have implemented a really small subset of Scala Programming language.
+
+We have implemented: 
+1. Arithmetic Operators.
+2. Logical Operators.
+3. Comparison Operators.
+4. Assignment Operators.
+5. Conditional Statement - (if- else) statement.
+6. Looping Statement - while loop.
+7. Function - Small Basic Functions.
+
+A Brief Summary on the implementation.
+1. We have followed the operator precedence
+- Primary(Number , Strings)
+- Unary Operator like ! and - 
+- Multiplication ( * , / )
+- Addition  ( + , - )
+- Comparison (> , < , >= , <= , ==, != )
+- equality (!= , ==)
+- Logical Operator(and, or)
+
+2.Assignment Statement 
+- Variables are Declared using var keyword.
+- Variables can be declared first and initialized or can only declared and later initialised.
+
+3.Conditional Statement
+- We have only implemented if and else.
+
+4.Looping Statement
+- We have implemented While loop.
+
+5.Functions
+- Functions can be declared using def keyword.
+- We can have parameterized functions, and can be called as many times.
+
+
+Learning from this project;
+
+1. Learned how to the write a Lexical Analyzer(as said by author).
+2. Learned how to write a Recursive Decent Parser.
+3. What is the symbol table, and parse tree.
+4. We learn how to express languages grammar without ambiguity using BNF.
+5. Learned about the syntax and semantics of the programming language.

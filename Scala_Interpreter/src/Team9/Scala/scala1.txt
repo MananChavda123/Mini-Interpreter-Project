@@ -1,0 +1,35 @@
+//print Statement
+println("Hello")
+
+var data
+data = 100
+println(data)
+
+var age = 20
+if(age > 18){  	
+    println ("Age is greater than 18") 
+}  
+
+var number = 21.2
+println(number)
+if(number/21==0){  
+    println("Even number")
+}else{  
+    println("Odd number")
+}  
+
+ var a = 10                     // Initialization  
+      while( a<=20 ){                // Condition  
+         println(a)  
+         a = a+2                       // Incrementation  
+      }  
+
+//for( a <- 1 to 10 ){  
+  //       println(a) 
+//} 
+
+def functionExample()  {         
+          println("This is a simple function")  
+    }
+
+functionExample()
